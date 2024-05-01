@@ -9,7 +9,7 @@ function Footer() {
             <h2>Contact Us</h2>
           </div>
           <div className="social-icons">
-            <h5>Follow on Linkedin:</h5>&nbsp;<Link href="linkedin.com/in/anoopsiddharth"><i className="fab fa-linkedin"></i></Link>
+            <h5>Follow on Linkedin:</h5>&nbsp;<Link to="https://www.linkedin.com/in/anoopsiddharth"><i className="fab fa-linkedin"></i></Link>
           </div>
         </div>
       </footer>

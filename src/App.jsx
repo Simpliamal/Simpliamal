@@ -20,7 +20,7 @@ function App() {
                 <Route path="/blog" element={<Blog/>}/>
                 <Route path="/post1" element={<BlogPost />} />
                 <Route path="/#contact" element={<ContactSection/>}/>
-                <Route path="linkedin.com/in/anoopsiddharth" element={<Footer/>}/>
+                <Route path="https://www.linkedin.com/in/anoopsiddharth/" element={<Footer/>}/>
             </Routes>
         </>
     );
