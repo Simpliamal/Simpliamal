@@ -1,14 +1,14 @@
-import React, { useState, useEffect ,useRef} from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Footer from './Footer';
 import './Services.css';
 
 function Services() {
   return (
     <div className="services-page">
-    <div id="scrollpic"></div>
+      <div id="scrollpic"></div>
       <div className="detailed-services">
         <h1>Our Services</h1>
-        
+
         <div className="service-box">
           <h2><i className="fas fa-chart-line service-icon"></i>&nbsp;&nbsp;TRAINING</h2>
           <div className="space"></div>
@@ -34,26 +34,56 @@ function Services() {
         </div>
 
         <div className="service-box">
-        <h2><i className="fas fa-chart-line service-icon"></i>&nbsp;&nbsp;CONSULTING</h2>
-        <div className="space"></div>
+          <h2><i className="fas fa-chart-line service-icon"></i>&nbsp;&nbsp;CONSULTING</h2>
+          <div className="space"></div>
           <div className="sub-section">
-            <h3>Strategic Planning</h3>
+            <h3>Business Strategy Planning</h3>
             <p>
-              Develop strategic initiatives and plans to drive business growth and competitive advantage.
+              We help define your vision, set SMART strategic objectives, and develop actionable plans to drive growth, profitability, and competitive advantage with a strong business execution process.</p>
+          </div>
+          <div className="sub-section">
+            <h3>Lean Six Sigma Projects Coaching</h3>
+            <p>
+              Through our expert Coach guidance, we can help address any of your complex and cross functional challenges through Lean Six Sigma Projects consulting services on-site. Through data-driven approach and rigorous analysis, we can help you minimize defects, reduce variation, and enhance customer satisfaction across your organisation            </p>
+          </div>
+          <div className="sub-section">
+            <h3>Kaizen</h3>
+            <p>
+              Led by seasoned facilitator, our Kaizen workshops empower teams to identify opportunities, implement changes, and cultivate a culture of ongoing excellence.            </p>
+          </div>
+          <div className="sub-section">
+            <h3>Lean Value Stream Mapping</h3>
+            <p>
+              Through collaborative workshops and expert facilitation, we offer a structured approach to identify and eliminate waste, streamline processes, and optimize value delivery.             </p>
+          </div>
+          <div className="sub-section">
+            <h3>Business Transformation</h3>
+            <p>
+              Whether it's process transformation, restructuring, ownership or cultural shift, we can help you execute transformative initiatives to drive sustainable benefits.            </p>
+          </div>
+          <div className="sub-section">
+            <h3>Strategic Alliances</h3>
+            <p>
+              We provide guidance in identifying strategic partners, negotiating agreements, and fostering collaborative relationships to expand your market reach and product penetration.            </p>
+          </div>
+          <div className="sub-section">
+            <h3>New Business Model </h3>
+            <p>
+              From market analysis to implementation strategy, we provide comprehensive support to assist you in introducing innovative business model with competitive advantage.
+
             </p>
           </div>
           <div className="sub-section">
-            <h3>Process Improvement</h3>
+            <h3>Commercialization and New Product Introduction</h3>
             <p>
-              Identify bottlenecks and inefficiencies in processes, and implement solutions for enhanced productivity.
-            </p>
+              We can help accelerate time-to-market and maximise the success of your new products, from market analysis to launch strategy to account penetration support.             </p>
           </div>
           {/* Add more sub-sections as needed */}
         </div>
 
         <div className="service-box">
-        <h2><i className="fas fa-chart-line service-icon"></i>&nbsp;&nbsp;ASSESSMENTS</h2>
-        <div className="space"></div>
+          <h2><i className="fas fa-chart-line service-icon"></i>&nbsp;&nbsp;ASSESSMENTS</h2>
+          <div className="space"></div>
           <div className="sub-section">
             <h3>Channel Evaluation</h3>
             <p>
@@ -73,8 +103,8 @@ function Services() {
             </p>
           </div>
           {/* Add more sub-sections as needed */}
+        </div>
       </div>
-    </div>
 
       {/* Benefits */}
 
@@ -164,7 +194,7 @@ function Services() {
           </p>
         </div>
       </section>
-      <Footer/>        
+      <Footer />
     </div>
   );
 };
