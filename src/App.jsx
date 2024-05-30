@@ -8,8 +8,10 @@ import BlogPost from './components/BlogPage/BlogPost';
 import { Route, Routes } from 'react-router-dom';
 import ContactSection from './components/HomePage/ContactSection';
 import Footer from './components/Footer';
+import usePageTracking from './usePageTracking';
 
 function App() {
+    usePageTracking();
     return (
         <>
             <Navbar />
